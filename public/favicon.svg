@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="7" fill="#080808" />
+  <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="6.25" stroke="#30251D" stroke-width="1.5" />
+  <defs>
+    <linearGradient id="favGoldGrad" x1="5" y1="5" x2="27" y2="27" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F0C995" />
+      <stop offset="100%" stop-color="#D6A76C" />
+    </linearGradient>
+  </defs>
+  <!-- S curve -->
+  <path d="M 18 7 C 14 6 11 9 12 13 C 13 16 20 16 20 20 C 20 24 14 26 10 23 C 8 21 8 18 10 17" stroke="url(#favGoldGrad)" stroke-width="2.2" stroke-linecap="round" fill="none" />
+  <!-- A apex & left stem -->
+  <path d="M 19 8 L 12 24 C 11 25 9 25 8 25" stroke="url(#favGoldGrad)" stroke-width="2.4" stroke-linecap="round" fill="none" />
+  <!-- A crossbar -->
+  <path d="M 13 17 H 21" stroke="#F0C995" stroke-width="1.8" stroke-linecap="round" />
+  <!-- A right stem & tail flourish -->
+  <path d="M 19 8 L 23 21 C 24 24 27 25 30 25" stroke="url(#favGoldGrad)" stroke-width="2.4" stroke-linecap="round" fill="none" />
+</svg>
